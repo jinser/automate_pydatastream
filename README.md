@@ -41,6 +41,7 @@ An input file will have the following parameters that you can customize:
 	d. custom fields  
 
 The json key structure looks like this:
+```javascript
 "<description>": {  
 		"<group1>": {  
 			"1": {  
@@ -61,7 +62,7 @@ The json key structure looks like this:
 				"start_date": "<YYYY-MM-DD>"  
 			}  
 	}  
-
+```
 The description is the name that will be used for the output json file. 
 
 1 Group can have many tickers, just rename "group1" to the name that you want for your group.
