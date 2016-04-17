@@ -1,0 +1,23 @@
+{
+    "description": {
+		"group1": {
+			"1": {
+				"code": "BMJP10Y",
+				"custom_field":"CI,RI,IY,RY,RA,CO,CX,DU,L,MV",
+				"start_date": "1988-12-30"
+			},
+			"2" : {
+				"code": "",
+				"custom_field" : "L,RA",
+				"start_date" : "2002-12-31"
+			}
+		},	
+		"group2": {
+			"1": {
+				"code": "BMUS10Y",
+				"custom_field":"CI,RI,IY,RY,RA,CO,CX,DU,L,MV",
+				"start_date": "1988-12-30"
+			}
+		}
+    }
+}
