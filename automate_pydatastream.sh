@@ -4,8 +4,8 @@
 if [ "$#" -ne 2 ]; then
 	echo "please enter the username and password, like automate_pydatastream.sh <username> <password>."
 else
-	#get all data symbols for custom retrieval from glossary folder
-	custom=$(find glossary/*.json -printf "%f\n")
+	#get all data symbols for custom retrieval from input folder
+	custom=$(find input/*.json -printf "%f\n")
 	for filename in $custom
 	do
 		python getcustom.py $1 $2 $filename
